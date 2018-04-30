@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    str name;
+    cout << "Welcome to the world of Git and Github";
+    cin >> name;
+    cout << name << ", " << nice to meet you! << endl;
+    return 0; 
+
+}
