@@ -1,0 +1,15 @@
+
+%% 0 清理变量，工作空间
+clear all;
+close all;
+clc;
+
+
+%% 1 读入图片
+I = imread('pout.tif');
+
+
+%% 2 显示图片
+imshow(I); 
+title('原图')
+impixelregion
